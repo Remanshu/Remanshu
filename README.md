@@ -1,52 +1,73 @@
-<h1 align="center"> Hi 👋🏻, I'm Remanshu </br> 
-</h1>
-<p align="center">I love creating new things ⚡</p>
-<p align="center">Turning imagination into reality 🚀</p>
-<p align="center">
-<a href="twitter link" target="_blank"><img alt="" src="https://img.shields.io/badge/Twitter-000?logo=X&logoColor=ffffff&style=for-the-badge" style="vertical-align:center" /></a>
-<a href="linkdin link" target="_blank"><img alt="" src="https://img.shields.io/badge/LinkedIn-000?logo=linkedin&logoColor=0A66C2&style=for-the-badge" style="vertical-align:center" /></a>
-<a href="insta link" target="_blank"><img alt="" src="https://img.shields.io/badge/Instagram-000?style=for-the-badge&logo=Instagram&logoColor=E4405F" style="vertical-align:center" /></a></p>
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title {
+      font: bold 40px monospace;
+      fill: url(#grad);
+    }
+    .subtitle {
+      font: 20px monospace;
+      fill: #fff;
+    }
+    .wave {
+      animation: waveMove 6s linear infinite;
+    }
+    @keyframes waveMove {
+      from { transform: translateX(0); }
+      to { transform: translateX(-200); }
+    }
+    .fade {
+      animation: fadeCycle 9s infinite;
+    }
+    @keyframes fadeCycle {
+      0%,33%   { opacity: 1; }
+      34%,100% { opacity: 0; }
+    }
+    .fade2 {
+      animation: fadeCycle2 9s infinite;
+    }
+    @keyframes fadeCycle2 {
+      0%,33%   { opacity: 0; }
+      34%,66%  { opacity: 1; }
+      67%,100% { opacity: 0; }
+    }
+    .fade3 {
+      animation: fadeCycle3 9s infinite;
+    }
+    @keyframes fadeCycle3 {
+      0%,66%   { opacity: 0; }
+      67%,100% { opacity: 1; }
+    }
+  </style>
 
-<p align="center">
-  <img 
-    src="https://img.freepik.com/premium-vector/cute-boy-working-computer-cartoon-vector-icon-illustration-people-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-4024.jpg" alt="Working Boy" width="300" />
+  <!-- Gradient -->
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Waves -->
+  <g fill="#1e293b">
+    <path class="wave" d="M0 120 Q 40 100 80 120 T 160 120 T 240 120 T 320 120 T 400 120 T 480 120 T 560 120 T 640 120 T 720 120 T 800 120 V200 H0 Z"/>
+    <path class="wave" d="M0 140 Q 40 160 80 140 T 160 140 T 240 140 T 320 140 T 400 140 T 480 140 T 560 140 T 640 140 T 720 140 T 800 140 V200 H0 Z" fill="#334155"/>
+  </g>
+
+  <!-- Main Title -->
+  <text x="50" y="80" class="title">Remanshu Sharma</text>
+
+  <!-- Cycling Subtitles -->
+  <text x="50" y="120" class="subtitle fade">Data Science Enthusiast</text>
+  <text x="50" y="120" class="subtitle fade2">Artificial Intelligence Explorer</text>
+  <text x="50" y="120" class="subtitle fade3">IIT Patna Learner</text>
+</svg>
+<h1 align="center">Hi 👋, I'm Remanshu</h1>
+<h3 align="center">✨ I craft stories from data while exploring the world of AI. From Metallurgy at IIT Patna to Machine Learning, my journey is about turning raw information into meaningful insights.</h3>
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
 </p>
 
-<p align="center">
-  🎓 B.Tech Sophomore | Metallurgy & Materials Engineering @ IIT Patna <br>
-  💻 Front-End Developer | MERN Stack Explorer | Firebase & Spring Boot Beginner <br>
-  🧪 Curious Mind | Creative Thinker | Lifelong Learner <br>
-</p>
-<p>A deep passion for Fullstack web developer and a drive to build clean, accessible, and responsive user interfaces. </p>
-
-## Tech Stack 💻
-
-### 🚀 Projects I'm Working On
-  <p>Check my Profile</p>
-
-
-### 🛠️ Skills
-
-- **Languages:** JavaScript, C++, Python  
-- **Front-End:** React, HTML, CSS, Vite  
-- **Back-End:** Node.js, Express, Firebase, Spring Boot  
-- **Tools & Platforms:** Git, GitHub, VS Code, Postman
-
----
-
-### 🏆 Achievements
-
-- 🥇 Ranked in the **Top 1%** in TS EAMCET among 3+ lakh students
-- 🎬 Represented IIT Patna at **Inter IIT Cultural Meet 7.0** — Secured **7th place** in Filmmaking
-- 🧩 Contributor to multiple full-stack & Firebase learning projects
-
----
-
-### 🌐 Connect with Me
-
-- 📎 [LinkedIn]()
-- 🐦 [Twitter]()
-- 📷 [Instagram]() *(optional)*
-
-
-### Thanks for Visiting my GitHub Profile!
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
