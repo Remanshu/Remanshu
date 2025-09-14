@@ -1,49 +1,4 @@
-<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="100%" height="100%" fill="#0f172a"/>
 
-  <!-- Gradient for Name -->
-  <defs>
-    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#06b6d4"/>
-      <stop offset="50%" stop-color="#7c3aed"/>
-      <stop offset="100%" stop-color="#ef4444"/>
-    </linearGradient>
-  </defs>
-
-  <!-- Main Circle Orbit -->
-  <circle cx="200" cy="200" r="120" stroke="#334155" stroke-width="2" fill="none"/>
-
-  <!-- Orbiting Dots -->
-  <circle cx="200" cy="80" r="8" fill="#06b6d4">
-    <animateTransform attributeName="transform" type="rotate"
-      from="0 200 200" to="360 200 200" dur="8s" repeatCount="indefinite"/>
-  </circle>
-
-  <circle cx="200" cy="320" r="6" fill="#ef4444">
-    <animateTransform attributeName="transform" type="rotate"
-      from="0 200 200" to="360 200 200" dur="12s" repeatCount="indefinite"/>
-  </circle>
-
-  <circle cx="80" cy="200" r="5" fill="#7c3aed">
-    <animateTransform attributeName="transform" type="rotate"
-      from="0 200 200" to="360 200 200" dur="10s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Center Name -->
-  <text x="200" y="200" font-size="22" font-family="monospace"
-        fill="url(#grad)" text-anchor="middle" dominant-baseline="middle">
-    Remanshu Sharma
-  </text>
-
-  <!-- Subtitle -->
-  <text x="200" y="230" font-size="16" font-family="monospace"
-        fill="#9fe9ff" text-anchor="middle">
-    Data Science • AI • IIT Patna
-    <animate attributeName="fill" values="#9fe9ff;#06b6d4;#ef4444;#9fe9ff"
-             dur="6s" repeatCount="indefinite"/>
-  </text>
-</svg>
 
 <h1 align="center">Hi 👋, I'm Remanshu</h1>
 <h3 align="center">✨ I craft stories from data while exploring the world of AI. From Metallurgy at IIT Patna to Machine Learning, my journey is about turning raw information into meaningful insights.</h3>
