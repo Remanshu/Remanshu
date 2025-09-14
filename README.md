@@ -1,11 +1,11 @@
-<h1 align="center"> Hi 👋🏻, I'm Hemanth Tejavath </br> 
+<h1 align="center"> Hi 👋🏻, I'm Remanshu </br> 
 </h1>
 <p align="center">I love creating new things ⚡</p>
 <p align="center">Turning imagination into reality 🚀</p>
 <p align="center">
-<a href="https://twitter.com/Hemanth17122004" target="_blank"><img alt="" src="https://img.shields.io/badge/Twitter-000?logo=X&logoColor=ffffff&style=for-the-badge" style="vertical-align:center" /></a>
-<a href="https://www.linkedin.com/in/hemanth-tejavath" target="_blank"><img alt="" src="https://img.shields.io/badge/LinkedIn-000?logo=linkedin&logoColor=0A66C2&style=for-the-badge" style="vertical-align:center" /></a>
-<a href="https://www.instagram.com/sonu.since_2005" target="_blank"><img alt="" src="https://img.shields.io/badge/Instagram-000?style=for-the-badge&logo=Instagram&logoColor=E4405F" style="vertical-align:center" /></a></p>
+<a href="twitter link" target="_blank"><img alt="" src="https://img.shields.io/badge/Twitter-000?logo=X&logoColor=ffffff&style=for-the-badge" style="vertical-align:center" /></a>
+<a href="linkdin link" target="_blank"><img alt="" src="https://img.shields.io/badge/LinkedIn-000?logo=linkedin&logoColor=0A66C2&style=for-the-badge" style="vertical-align:center" /></a>
+<a href="insta link" target="_blank"><img alt="" src="https://img.shields.io/badge/Instagram-000?style=for-the-badge&logo=Instagram&logoColor=E4405F" style="vertical-align:center" /></a></p>
 
 <p align="center">
   <img 
@@ -44,14 +44,9 @@
 
 ### 🌐 Connect with Me
 
-- 📎 [LinkedIn](www.linkedin.com/in/hemanth-tejavath)
-- 🐦 [Twitter](https://twitter.com/Hemanth17122004)
-- 📷 [Instagram](https://www.instagram.com/sonu.since_2005?igsh=MTJhb3p5MWc4czRydA%3D%3D) *(optional)*
+- 📎 [LinkedIn]()
+- 🐦 [Twitter]()
+- 📷 [Instagram]() *(optional)*
 
 
 ### Thanks for Visiting my GitHub Profile!
-
----
-<p align="center">
-<img src="https://github.com/VishwaGauravIn/VishwaGauravIn/blob/output/github-contribution-grid-snake-dark.svg">
-</p>
