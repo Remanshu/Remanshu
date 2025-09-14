@@ -1,67 +1,50 @@
-<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .title {
-      font: bold 40px monospace;
-      fill: url(#grad);
-    }
-    .subtitle {
-      font: 20px monospace;
-      fill: #fff;
-    }
-    .wave {
-      animation: waveMove 6s linear infinite;
-    }
-    @keyframes waveMove {
-      from { transform: translateX(0); }
-      to { transform: translateX(-200); }
-    }
-    .fade {
-      animation: fadeCycle 9s infinite;
-    }
-    @keyframes fadeCycle {
-      0%,33%   { opacity: 1; }
-      34%,100% { opacity: 0; }
-    }
-    .fade2 {
-      animation: fadeCycle2 9s infinite;
-    }
-    @keyframes fadeCycle2 {
-      0%,33%   { opacity: 0; }
-      34%,66%  { opacity: 1; }
-      67%,100% { opacity: 0; }
-    }
-    .fade3 {
-      animation: fadeCycle3 9s infinite;
-    }
-    @keyframes fadeCycle3 {
-      0%,66%   { opacity: 0; }
-      67%,100% { opacity: 1; }
-    }
-  </style>
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0f172a"/>
 
-  <!-- Gradient -->
+  <!-- Gradient for Name -->
   <defs>
-    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#06b6d4"/>
       <stop offset="50%" stop-color="#7c3aed"/>
       <stop offset="100%" stop-color="#ef4444"/>
     </linearGradient>
   </defs>
 
-  <!-- Background Waves -->
-  <g fill="#1e293b">
-    <path class="wave" d="M0 120 Q 40 100 80 120 T 160 120 T 240 120 T 320 120 T 400 120 T 480 120 T 560 120 T 640 120 T 720 120 T 800 120 V200 H0 Z"/>
-    <path class="wave" d="M0 140 Q 40 160 80 140 T 160 140 T 240 140 T 320 140 T 400 140 T 480 140 T 560 140 T 640 140 T 720 140 T 800 140 V200 H0 Z" fill="#334155"/>
-  </g>
+  <!-- Main Circle Orbit -->
+  <circle cx="200" cy="200" r="120" stroke="#334155" stroke-width="2" fill="none"/>
 
-  <!-- Main Title -->
-  <text x="50" y="80" class="title">Remanshu Sharma</text>
+  <!-- Orbiting Dots -->
+  <circle cx="200" cy="80" r="8" fill="#06b6d4">
+    <animateTransform attributeName="transform" type="rotate"
+      from="0 200 200" to="360 200 200" dur="8s" repeatCount="indefinite"/>
+  </circle>
 
-  <!-- Cycling Subtitles -->
-  <text x="50" y="120" class="subtitle fade">Data Science Enthusiast</text>
-  <text x="50" y="120" class="subtitle fade2">Artificial Intelligence Explorer</text>
-  <text x="50" y="120" class="subtitle fade3">IIT Patna Learner</text>
+  <circle cx="200" cy="320" r="6" fill="#ef4444">
+    <animateTransform attributeName="transform" type="rotate"
+      from="0 200 200" to="360 200 200" dur="12s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="80" cy="200" r="5" fill="#7c3aed">
+    <animateTransform attributeName="transform" type="rotate"
+      from="0 200 200" to="360 200 200" dur="10s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Center Name -->
+  <text x="200" y="200" font-size="22" font-family="monospace"
+        fill="url(#grad)" text-anchor="middle" dominant-baseline="middle">
+    Remanshu Sharma
+  </text>
+
+  <!-- Subtitle -->
+  <text x="200" y="230" font-size="16" font-family="monospace"
+        fill="#9fe9ff" text-anchor="middle">
+    Data Science • AI • IIT Patna
+    <animate attributeName="fill" values="#9fe9ff;#06b6d4;#ef4444;#9fe9ff"
+             dur="6s" repeatCount="indefinite"/>
+  </text>
 </svg>
+
 <h1 align="center">Hi 👋, I'm Remanshu</h1>
 <h3 align="center">✨ I craft stories from data while exploring the world of AI. From Metallurgy at IIT Patna to Machine Learning, my journey is about turning raw information into meaningful insights.</h3>
 
