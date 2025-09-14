@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="rotate-circle.svg" width="400" />
+</p>
 
 <h1 align="center">Hi 👋, I'm Remanshu</h1>
 <h3 align="center">✨ I craft stories from data while exploring the world of AI. From Metallurgy at IIT Patna to Machine Learning, my journey is about turning raw information into meaningful insights.</h3>
